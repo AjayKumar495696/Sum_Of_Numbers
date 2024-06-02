@@ -1,8 +1,10 @@
 object sumOfNumbers {
   def main(args:Array[String]):Unit={
-    val a = 2
-    val b = 3
+    val a = scala.io.StdIn.readInt()
+    val b = scala.io.StdIn.readInt()
     val c = a + b
+    println("Enter number a :");
+    println("Enter number b :");
     println(s"Sum of two numbers is :"+c);
     }
    } 
